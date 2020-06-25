@@ -13,3 +13,7 @@
 #    1   0
 #   / \
 #  1   1
+
+def solution():
+  
+print(solution())

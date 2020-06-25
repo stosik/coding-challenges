@@ -10,3 +10,7 @@
 #         return f(a, b)
 #     return pair
 # Implement car and cdr
+
+def solution():
+  
+print(solution())

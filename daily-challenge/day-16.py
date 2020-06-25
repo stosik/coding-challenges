@@ -13,3 +13,7 @@
 class Log:
    __init__(size = 0, arr = [], index=0):
     this.size = size
+
+def solution():
+  
+print(solution())
