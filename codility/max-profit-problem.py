@@ -4,6 +4,8 @@
 
 # https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/
 
+# Kadaine's algorithm
+
 def solution(A):
   global_max_sum = 0
   local_max_sum = 0

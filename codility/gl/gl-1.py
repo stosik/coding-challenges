@@ -14,7 +14,7 @@ def binomial_coefficient(N, K):
     
     binomial_coefficient = 1
     
-    for i in range(1, N)):
+    for i in range(1, N):
         binomial_coefficient = binomial_coefficient + 1 - i
         binomial_coefficient /= i
         if is_out_of_range(binomial_coefficient):

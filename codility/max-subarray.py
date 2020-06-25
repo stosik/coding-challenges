@@ -9,6 +9,7 @@ def solution(A):
         delta = A[i] + A[i-1]
         local_max_sum = max(delta, local_max_sum + delta)
         global_max_sum = max(local_max_sum, global_max_sum)
+
     return global_max_sum 
 
 print(solution([3, 2, -6, 4, 0]))

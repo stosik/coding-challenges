@@ -1,3 +1,10 @@
+# Reverse a singly linked list.
+
+# Example:
+
+# Input: 1->2->3->4->5->NULL
+# Output: 5->4->3->2->1->NULL
+
 class Node:
     def __init__(self, val, next=None):
         self.val = val
