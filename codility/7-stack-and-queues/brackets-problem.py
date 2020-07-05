@@ -24,3 +24,4 @@ def solution(S):
 
 
 print(solution("[]{}(())"))
+print(solution("[]{}(()}"))
