@@ -4,7 +4,7 @@
 import math
 
 def solution(a, b, k):
-  start = math.ceil(a/b)
+  start = math.ceil(a/k)
   end = math.floor(b/k)
 
   result = end - start + 1

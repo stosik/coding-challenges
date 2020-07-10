@@ -8,6 +8,8 @@ def reverse(nums, start, end):
     
     return nums
 
+# new_index = (i + k) % len(nums)
+
 def solution(nums, k):
     k = k % len(nums)
     arr = reverse(nums, 0, len(nums) - 1)
