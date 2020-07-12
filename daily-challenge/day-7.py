@@ -9,9 +9,8 @@ def memoize(func):
     def memoized_func(*args):
         if args in cache:
             return cache[args]
-        result = func(*args)
-        cache[args] = result
-        return result
+        cache[args] = func(*args)
+        return cache[args]
 
     return memoized_func
 
