@@ -2,6 +2,14 @@
 
 # Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-def solution():
-  
-print(solution())
+import time
+
+def scheduler(f, n):
+    time.sleep(n)
+    f()
+
+def hello_world():
+    print("Hello World")
+
+
+scheduler(hello_world, 1)
