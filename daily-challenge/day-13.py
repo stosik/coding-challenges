@@ -33,4 +33,4 @@ def solution(s, k):
 
   return max_lenght
 
-print(solution("eceba", 2))
+print(solution("eceba", 2)) #3
