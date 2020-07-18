@@ -10,10 +10,16 @@
 
 # SOLUTION - Circular buffer
 
-class Log:
-   __init__(size = 0, arr = [], index=0):
-    this.size = size
 
-def solution():
-  
-print(solution())
+import collections
+
+class Log:
+   def _init_(self, size = 0):
+    self.size = size
+    self.deque = collections.deque(size)
+
+    def append(order_id):
+        self.deque.append(order_id)
+
+    def get_last(i=0):
+        return self.deque[i]
