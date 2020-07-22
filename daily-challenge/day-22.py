@@ -9,3 +9,23 @@
 
 # Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond",
 # return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+
+# add memoization
+# https://www.geeksforgeeks.org/word-break-problem-using-backtracking/ check here
+
+def get_sentence_split(s, words):
+  if not s or not words:
+    return []
+
+  sentence_words = list()
+  for i in range(len(s)):
+    if s[0:i + 1] in words:
+      sentence_words.append(s[0:i + 1])
+      words.remove(s[0:i + 1])
+      sentence_words += get_sentence_split(s[i + 1:], words)
+      break
+
+  return sentence_words
+
+print(get_sentence_split("thequickbrownfox", ['quick', 'brown', 'the', 'fox']))
+print(get_sentence_split("bedbathandbeyond", ['bed', 'bath', 'bedbath', 'and', 'beyond']))
