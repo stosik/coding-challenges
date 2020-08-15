@@ -1,4 +1,4 @@
-/*
+package second;/*
 This problem was asked by Google.
 
 Given an array of strictly the characters 'R', 'G', and 'B',

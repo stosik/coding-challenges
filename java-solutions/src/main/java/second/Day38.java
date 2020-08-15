@@ -1,4 +1,4 @@
-/*
+package second;/*
 This problem was asked by Microsoft.
 
 You have an N by N board. Write a function that, given N,
