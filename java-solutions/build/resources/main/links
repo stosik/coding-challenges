@@ -51,7 +51,7 @@ CODING:
 45. Design an elevator (SICK !)
 46. N Queen Problem
 47. Number of islands
-48. Reverse a String
+48. Reverse a String (done)
 49 Calculate the maximum average of students' scores in a 2D array
 50. Find the shortest midpoint of two words in a document
 51. Picking up stones on a 2D grid along a path from upper left corner to the lower right corner, find the path to pick up most rewards
@@ -62,9 +62,5 @@ CODING:
 56. Implement BST
 57. Find kth last node from the end in LinkedList
 
-47. You are given the opportunity to select one closed door of three,
-behind one of which there is a prize. The other two doors hide piles of rubble. Once you have made your selection,
-the gameshow host (called Monty) Hall will open one of the remaining doors, revealing that it does not contain the prize.
-He then asks you if you would like to switch your selection to the other unopened door, or stay with your original choice. Here is the problem.
-What do you do? (This is known as the Monty Hall problem.)
+
 
